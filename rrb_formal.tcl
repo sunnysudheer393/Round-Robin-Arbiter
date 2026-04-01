@@ -6,7 +6,7 @@ analyze -sv12 rrb_fv_tb.sv \ rrb_bind.sv
 
 check_cov -init -type all -model {branch toggle statement} -toggle_ports_only
 
-elaborate -top cache_top
+elaborate -top rrarb_p
 
 clock clk
 
